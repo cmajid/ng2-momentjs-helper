@@ -1,21 +1,21 @@
-# ng2-string-helper
-angular2 ng2 string helper utility
+# ng2-momentjs-helper
+Angular2 momentjs datatime helper
 
 ## Usage 
 Install from npm: 
 ```
-npm install ng2-string-helper --save
+npm install ng2-momentjs-helper --save
 ```
 <Enter>
-Import static class StringHelper in head
+Import static class MomentjsHelper in head
   
 ```
-import { StringHelper } from 'ng2-string-helper/dist';
+import { MomentjsHelper } from 'ng2-momentjs-helper/dist';
 ```
 <Enter>
   
 Use in codes..
 ```
-let value = StringHelper.StringIsNullOrEmpty("myString");
+let value = MomentjsHelper.GetJalaliNow();
 console.log(value);
 ```
